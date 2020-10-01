@@ -1,7 +1,9 @@
 import heapq
 import os
 
+# trying to create a tree so as to generate huffman code
 class BinaryTreeNode:
+# each tree node has a value,a frequency,a left node and a right node
     def __init__(self,value,freq):
         self.value = value
         self.freq = freq
